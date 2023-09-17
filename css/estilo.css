@@ -1,0 +1,125 @@
+*{
+    font-family: poppins;
+}
+body{
+    background-image: url("../img/fondo_index.jpg");
+    background-size:cover; /* hace que la imagen ocupe todo el contenido de body*/
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+}
+/* scc del header */
+h1{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: #CCAE52;
+    width: auto;
+    height: 80px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+#logo_principal{
+    height: 70px;
+    float: left;
+}
+/* css del menu vertical */
+.menu{
+    height: 70px;
+    float: right;
+    cursor: pointer;
+    
+}
+.menu_vertical{
+    display: none;
+    float: right ;
+    background-color: antiquewhite;
+    
+}
+.menu_vertical ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    width: 150px;
+    height: auto;
+    bottom: 40px;
+}
+.menu_vertical ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    height: 40px;
+}
+.menu:hover + .menu_vertical {
+    display: inline;
+}
+.menu_vertical:hover{
+    display: block;
+
+}
+.menu_vertical li:hover{
+    background-color:rgb(226, 203, 173) ;
+    cursor: pointer;
+}
+/* css del cartel que esta en el centro de la pagina */
+.cartel_centro{
+    border: 5px black solid; /* grosor, color, estilo*/
+    background-color: bisque;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+    border-radius: 15px;
+    margin-top: 200px;
+}
+.cartel_centro h2{
+    margin: 20px;
+    margin-top: 50px;
+}
+.cartel_centro p{
+    font-size: larger;
+    margin-top: 100px;
+}
+/* css del footer */
+footer{
+    background-color: #CCAE52;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+footer h2{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: absolute;
+}
+a h2{
+    text-decoration: none;
+    color: black;
+}
+.img_footer{
+    width: 30px;
+}
+/* css del boton continuar */
+button{
+    background-color: #CCAE52;
+    margin: 50px;
+    border: black 5px solid;
+    border-radius: 15px;
+    float: right;
+    height: 60px;
+    width: 150px;
+    font-size: larger;
+}
+button:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+button:active{
+    background-color: #CCAE52;
+}

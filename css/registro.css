@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+body{
+    background-image: url(../img/fondoRegistro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    display: block;
+    padding: 10px;
+}
+.contenedor{
+    background-color: rgb(240, 213, 115);
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px;
+}
+.campoRegistro{
+    display: block;
+    margin: 20px auto ;
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.registrar{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(237, 189, 28);
+    font-size: 15px;
+}
+.registrar:hover{
+    background-color: rgb(156, 117, 10);
+    cursor: pointer;
+    color: white;
+}
+.registrar:active{
+    background-color: rgb(237, 189, 28);
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
