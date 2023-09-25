@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Samario</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/localisacion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="../javascript/localisacion,js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo" id="logo_principal"></a>
+        <a href="../index.html"><h1>Dulce Samario</h1></a>
+        <img src="../img/menu.png" alt="menu" class="menu" >
+        <nav class="menu_vertical">
+            <ul>
+                <li><a href="iniciaSesion.html">iniciar sesion</a></li>
+                <li><a href="#">cerrar sesion</a></li>
+                <li><a href="#">cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="map-container">
+            <h2>ubicacion actual</h2>
+            <div id="mapa"></div>
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY&callback=initMap&v=weekly"></script>
+    </main>
+    <footer>
+        <a href=""><h2 style="display: inline-block;"><img src="../img/icon_whatsapp.png" class="img_footer" alt="Whatsapp">Whatsapp</h2></a>
+        <a href=""><h2 style="display: inline-block;"><img src="../img/icon_facebook.png" class="img_footer" alt="Facebook">Facebook</h2></a>
+        <a href=""><h2 style="display: inline-block;"><img src="../img/icon_instagram.png" class="img_footer" alt="Instagram">Instagram</h2></a>
+    </footer>
+</body>
+</html>

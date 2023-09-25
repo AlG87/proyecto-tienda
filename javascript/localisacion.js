@@ -1,0 +1,1 @@
+var mapa = document.getElementById(mapa)
