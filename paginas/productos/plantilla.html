@@ -25,22 +25,31 @@
     </header>
     <main>
         <div class="contenedorIzquierda">
-            <img src="../../img/imgproductos/img1.jpeg" alt="">
+            <img src="../../img/malteada.jpg" alt="imagenmalteada">
+            
             <h2>malteada</h2>
             <label for ="cantidad">cantidad:</label>
             <input type="number" id="cantidad" name="cantidad" min="1" step="1">
         </div>
         <div class="contenedorDerecha">
             <h2>ELIJA EL SABOR</h2>
-            <ul>
-                <li>SABORES:</li>
-                <li>Limon</li>
-                <li>Cafe</li>
-                <li>Naranja</li>
-                <li>Macadamia</li>
-            </ul>
-            <button>CONTINUAR</button>
+            <div class="botones">
+                <input type="radio" id="rojo" name="color" value="rojo">
+                <label for="rojo">Limon</label>
+                <br>
+                <input type="radio" id="verde" name="color" value="verde">
+                <label for="verde">Cafe</label>
+                <br>
+                <input type="radio" id="azul" name="color" value="azul">
+                <label for="azul">Naranja</label>
+                <br>
+                <input type="radio" id="azul" name="color" value="azul">
+                <label for="azule">Chocolate</label>
+                <br>
+            </div>
+        
         </div>
+                
     </main>
     <footer>
         <a href=""><h2 style="display: inline-block;"><img src="../../img/icon_whatsapp.png" class="img_footer" alt="Whatsapp">Whatsapp</h2></a>

@@ -8,13 +8,11 @@ h1{
     float: left;
     text-decoration: none;
     color: black;
-    margin-top: 21px;
 }
 header{
     background-color: #CCAE52;
     width: auto;
     height: 80px;
-    margin-bottom: 50px;
     padding: 10px;
 }
 #logo_principal{
@@ -60,8 +58,48 @@ header{
     cursor: pointer;
 }
 
-
-
+/*codigo nuevo*/
+body{
+    height: 100vh;
+}
+main{
+    display: flex;
+    background-color:#CCAE52;
+}
+#cantidad{
+    width: 50px;
+    margin: 0 auto;
+}
+.contenedorIzquierda{
+    background-color: #f9dc84;
+    width: 50%;
+    height: 100vh;
+}
+.contenedorDerecha{
+    width: 50%;
+    height: 100vh;
+    background-color: #ecc757;
+    position: relative;
+}
+.contenedorIzquierda img{
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+}
+.botones{
+    background-color: gray;
+    display: inline-block;
+    height: 300px;
+    width: 600px;
+    
+}
+.contenedorIzquierda h2 {
+    text-align: center;
+}
+.contenedorIzquierda label{
+    text-align: center;
+    margin-left: 170px;
+}
 /* css del footer */
 footer{
     background-color: #CCAE52;
@@ -79,8 +117,8 @@ footer h2{
 a h2{
     text-decoration: none;
     color: black;
-    margin-top: 20px;
 }
 .img_footer{
     width: 30px;
+    margin-top: 22px;
 }
