@@ -1,5 +1,6 @@
+@import "colores.css";
 *{
-    font-family: poppins;
+    font-family: var(--fuente);
 }
 body{
     background-image: url("../img/fondo_index.jpg");
@@ -13,10 +14,10 @@ body{
 h1{
     float: left;
     text-decoration: none;
-    color: black;
+    color: var(--colorFuente);
 }
 header{
-    background-color: #CCAE52;
+    background-color: var(--colorPrincipal);
     width: auto;
     height: 80px;
     margin-bottom: 50px;
@@ -36,7 +37,7 @@ header{
 .menu_vertical{
     display: none;
     float: right ;
-    background-color: antiquewhite;
+    background-color: var(--colorMenuVertical);
     
 }
 .menu_vertical ul{
@@ -49,7 +50,7 @@ header{
 }
 .menu_vertical ul li a{
     text-decoration: none;
-    color: black;
+    color: var(--colorFuente);
     padding: 10px;
     height: 40px;
 }
@@ -86,7 +87,7 @@ header{
 }
 /* css del footer */
 footer{
-    background-color: #CCAE52;
+    background-color: var(--colorPrincipal);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -100,7 +101,7 @@ footer h2{
 }
 a h2{
     text-decoration: none;
-    color: black;
+    color: var(--colorFuente);
 }
 .img_footer{
     width: 30px;
